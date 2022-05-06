@@ -53,7 +53,7 @@ export default function Timer() {
 	const sendNotification = async () => {
 		const registration = await navigator.serviceWorker.getRegistration()
 		if (!registration) {
-			return alert('no hay un service worker instalado')
+			return alert('¡Tiempo!')
 		}
 		registration.showNotification('Timer has finished', {
 			body: 'ding dong',
