@@ -1,0 +1,29 @@
+{
+  "short_name": "Recipes",
+  "name": "My recipes",
+    "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "https://github.com/claudgomezg",
+  "display": "standalone",
+  "theme_color": "#ff4500",
+  "background_color": "#ffffff",
+  "prefer_related_applications": false,
+  "related_applications": []
+}

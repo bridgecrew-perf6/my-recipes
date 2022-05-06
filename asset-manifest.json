@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-recipes/static/css/main.1cfefbfc.chunk.css",
+    "main.js": "/my-recipes/static/js/main.8723c926.chunk.js",
+    "main.js.map": "/my-recipes/static/js/main.8723c926.chunk.js.map",
+    "runtime-main.js": "/my-recipes/static/js/runtime-main.ddc88cea.js",
+    "runtime-main.js.map": "/my-recipes/static/js/runtime-main.ddc88cea.js.map",
+    "static/js/2.eec232e6.chunk.js": "/my-recipes/static/js/2.eec232e6.chunk.js",
+    "static/js/2.eec232e6.chunk.js.map": "/my-recipes/static/js/2.eec232e6.chunk.js.map",
+    "static/js/3.bb7afabe.chunk.js": "/my-recipes/static/js/3.bb7afabe.chunk.js",
+    "static/js/3.bb7afabe.chunk.js.map": "/my-recipes/static/js/3.bb7afabe.chunk.js.map",
+    "index.html": "/my-recipes/index.html",
+    "service-worker.js": "/my-recipes/service-worker.js",
+    "service-worker.js.map": "/my-recipes/service-worker.js.map",
+    "static/css/main.1cfefbfc.chunk.css.map": "/my-recipes/static/css/main.1cfefbfc.chunk.css.map",
+    "static/js/2.eec232e6.chunk.js.LICENSE.txt": "/my-recipes/static/js/2.eec232e6.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/my-recipes/static/media/stopwatch.86a9424c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddc88cea.js",
+    "static/js/2.eec232e6.chunk.js",
+    "static/css/main.1cfefbfc.chunk.css",
+    "static/js/main.8723c926.chunk.js"
+  ]
+}
