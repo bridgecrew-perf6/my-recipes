@@ -1,5 +1,5 @@
 {
-  "name": "recipes_pwa",
+  "name": "my_recipes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -60,5 +60,5 @@
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0"
   },
-  "homepage": "https://claudgomezg.github.io/my-recipes/"
+  "homepage": "https://claudgomezg.github.io/my_recipes"
 }

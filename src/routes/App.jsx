@@ -18,11 +18,11 @@ export default function App() {
 				<MainLayout>
 					<Routes>
 
-						<Route path='/recipes_pwa' element={<Home />} />
-						<Route path='/recipes_pwa/' element={<Home />} />
-						<Route path='/recipes_pwa/category' element={<Category />} />
-						<Route path='/recipes_pwa/category/recipe' element={<Recipe />} />
-						<Route path='/recipes_pwa/timer' element={<Timer />} />
+						<Route path='/my_recipes' element={<Home />} />
+						<Route path='/my_recipes/' element={<Home />} />
+						<Route path='/my_recipes/category' element={<Category />} />
+						<Route path='/my_recipes/category/recipe' element={<Recipe />} />
+						<Route path='/my_recipes/timer' element={<Timer />} />
 						<Route path='*' element={<NotFound />} />
 					</Routes>
 				</MainLayout>

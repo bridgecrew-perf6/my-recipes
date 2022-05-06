@@ -10,15 +10,15 @@ const initialState = {
 
 const reducer = (state, action) => {
 	switch (action.type) {
-		case '/recipes_pwa/':
+		case '/my_recipes/':
 			return { title: 'My Recipes', btn_back: false }
-		case '/recipes_pwa':
+		case '/my_recipes':
 			return { title: 'My Recipes', btn_back: false }
-		case '/recipes_pwa/category':
+		case '/my_recipes/category':
 			return { title: 'Select A Recipe', btn_back: true }
-		case '/recipes_pwa/category/recipe':
+		case '/my_recipes/category/recipe':
 			return { title: 'Recipe', btn_back: true }
-		case '/recipes_pwa/timer':
+		case '/my_recipes/timer':
 			return { title: 'Timer', btn_back: true }
 		default:
 			return { title: 'Back Home', btn_back: true }
@@ -48,9 +48,9 @@ export default function Header() {
 	)
 
 	const handleBack = () => {
-		location.pathname === '/recipes_pwa/category/recipe'
-			? navigate('/recipes_pwa/category')
-			: navigate('/recipes_pwa')
+		location.pathname === '/my_recipes/category/recipe'
+			? navigate('/my_recipes/category')
+			: navigate('/my_recipes')
 	}
 
 	return (
@@ -68,7 +68,7 @@ export default function Header() {
 					/>
 				</button>
 			) : null}
-			<Link to='/recipes_pwa/' className='header__link'>
+			<Link to='/my_recipes/' className='header__link'>
 				{state.title}
 			</Link>
 			{offline ? <p className='header__offline'>Offline</p> : null}

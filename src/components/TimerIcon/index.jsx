@@ -6,7 +6,7 @@ import timer from '../../assets/timer.json'
 export default function TimerIcon() {
   let navigate = useNavigate()
   return (
-    <div className='timer_icon' onClick={() => navigate('/recipes_pwa/timer')}>
+    <div className='timer_icon' onClick={() => navigate('/my_recipes/timer')}>
       <Player
         autoplay={true}
         loop={true}
