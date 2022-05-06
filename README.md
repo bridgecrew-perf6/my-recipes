@@ -20,7 +20,7 @@ yarn serve
 ```
 
 ## View proyect :rocket:
-[Deploy]()
+[Deploy](https://claudgomezg.github.io/my-recipes/)
 
 ## Resources and Links :fountain:
 [Main Typography](https://fonts.googleapis.com/css2?family=Pacifico&display=swap "Pacifico")

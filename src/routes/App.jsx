@@ -18,11 +18,11 @@ export default function App() {
 				<MainLayout>
 					<Routes>
 
-						<Route path='/my_recipes' element={<Home />} />
-						<Route path='/my_recipes/' element={<Home />} />
-						<Route path='/my_recipes/category' element={<Category />} />
-						<Route path='/my_recipes/category/recipe' element={<Recipe />} />
-						<Route path='/my_recipes/timer' element={<Timer />} />
+						<Route path='/my-recipes' element={<Home />} />
+						<Route path='/my-recipes/' element={<Home />} />
+						<Route path='/my-recipes/category' element={<Category />} />
+						<Route path='/my-recipes/category/recipe' element={<Recipe />} />
+						<Route path='/my-recipes/timer' element={<Timer />} />
 						<Route path='*' element={<NotFound />} />
 					</Routes>
 				</MainLayout>

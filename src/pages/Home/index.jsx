@@ -27,7 +27,7 @@ export default function Home() {
                 image={categ.strCategoryThumb}
                 title={categ.strCategory}
                 onClick={ () => {
-                    navigate('/my_recipes/category')
+                    navigate('/my-recipes/category')
                     setCategory(categ.strCategory)
                     }
                   }

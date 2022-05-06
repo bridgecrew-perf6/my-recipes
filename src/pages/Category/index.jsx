@@ -27,7 +27,7 @@ export default function Category() {
                 image={recipe.strMealThumb}
                 title={recipe.strMeal}
                 onClick={ () => {
-                    navigate('/my_recipes/category/recipe')
+                    navigate('/my-recipes/category/recipe')
                     setRecipe(recipe.strMeal)
                     }
                   }
